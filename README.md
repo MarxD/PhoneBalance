@@ -1,8 +1,9 @@
-### APP名：账户信息
+练手用
 物联卡流量话费查询软件，带桌面小控件，MVP架构(不严谨)
+测试重庆物联卡可用(我只有这一张)
+理论上所有物联卡应该都行，不过接口是在中间商的微信页面上扒下来的，估计不支持其他卡
 
 三方库：
-
 1.[FastJson](https://github.com/alibaba/fastjson)<br />  
 2.[Jsoup](https://github.com/jhy/jsoup)<br />  
 3.[progresspieview](https://github.com/FilipPudak/ProgressPieView)<br />
