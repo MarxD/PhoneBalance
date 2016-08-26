@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">账户信息</string>
+    <string name="baseinfo">基础信息</string>
+    <string name="number">号码：</string>
+    <string name="iccid">ICCID：</string>
+    <string name="cardpackage">套餐：</string>
+    <string name="user_statu">账户状态</string>
+    <string name="phone_statu">当前状态：</string>
+    <string name="total">套餐总流量：</string>
+    <string name="used_thirty">已用流量：</string>
+    <string name="used_yesterday">已使用流量(截止至今天凌晨)：</string>
+    <string name="surplus">剩余流量(截止至今天凌晨)：</string>
+    <string name="balance">余额：</string>
+    <string name="surplus_now">剩余流量：</string>
+    <string name="yuan">元</string>
+    <array name="stetus">
+        <item>正常</item>
+        <item>单向停机</item>
+        <item>停机</item>
+        <item>预销号</item>
+        <item>销号</item>
+        <item>过户</item>
+        <item>休眠</item>
+        <item>待激活</item>
+        <item>号码不存在</item>
+    </array>
+    <string name="availableGPRS">剩余流量\n</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
