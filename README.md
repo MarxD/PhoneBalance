@@ -8,6 +8,6 @@
 
 三方库：
 
-1.[FastJson](https://github.com/alibaba/fastjson)<br />  
-2.[Jsoup](https://github.com/jhy/jsoup)<br />  
+1.[fastjson](https://github.com/alibaba/fastjson)<br />  
+2.[jsoup](https://github.com/jhy/jsoup)<br />  
 3.[progresspieview](https://github.com/FilipPudak/ProgressPieView)<br />
