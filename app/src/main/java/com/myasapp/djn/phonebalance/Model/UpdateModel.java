@@ -15,7 +15,7 @@ import java.net.SocketTimeoutException;
 
 import static com.myasapp.djn.phonebalance.Model.Utils.RoundUpUtils.getDecimals;
 
-/**
+/**数据解析模块
  * Created by Administrator on 2016/8/5.
  */
 public class UpdateModel implements ModelInteface {
@@ -36,7 +36,7 @@ public class UpdateModel implements ModelInteface {
         @Override
         protected Boolean doInBackground(String... params) {
             try {
-                String Jsonresult = Jsoup.connect("http://123.57.18.0:8080/api/wechat/simcards/" + params[0]).userAgent("Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)").ignoreContentType(true).timeout(10000).get().body().text();
+                String Jsonresult = Jsoup.connect("http://m2m-10086.cn/api/wechat/simcards/" + params[0]).userAgent("Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)").ignoreContentType(true).timeout(10000).get().body().text();
                 myResult = JSON.parseObject(Jsonresult,Result.class);
                 double used = myResult.getIotinfo().getResult().get(0).getTotal_gprs();
                 double Surplus = myResult.getTotalGprs()*1024 - used;
